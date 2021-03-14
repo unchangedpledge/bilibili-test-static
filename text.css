@@ -1,0 +1,80 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+.text{
+    width: 100px; height: 30px; 
+    background-color: red; 
+    margin-left: 200px; 
+    margin-bottom: 10px;
+}
+.van-popover {
+    /* display: none; */
+    position: absolute;
+    width: 304px;
+    z-index: 200;
+    /* border: 1px solid #000; */
+    border-radius: 2px;
+    background-color: #fff;
+    color: #606266;
+}
+.van-popover a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #212121;
+    background-color: transparent;
+}
+
+.van-popover .vp-container {
+    width: 100%;
+    height: 78px;
+    display: flex;
+}
+.van-popover .vp-container .upload-item {
+    cursor: pointer;
+    width: 76px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .2s ease;
+}
+.van-popover .vp-container .upload-item:hover {
+    background-color: #f4f4f4;
+    color: #212121;
+}
+.van-popover .vp-container .upload-item .item-title {
+    margin-top: 6px;
+}
+.bilifont {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    color: #757575;
+    background-size: cover;
+}
+.van-popover .vp-container .upload-item .wenzhangtougao{
+    background-image: url(投稿.png);
+}
+.van-popover .vp-container .upload-item .yinpintougao{
+    background-image: url(音频.png);
+}
+.van-popover .vp-container .upload-item .shipintougao{
+    background-image: url(视频.png);
+}
+.van-popover .vp-container .upload-item .tougaoguanli{
+    background-image: url(管理.png);
+}
+.popper_arrow {
+    position: absolute;
+    top: -12px;
+    left: 227.3px;
+    width: 0;
+    height: 0; 
+    padding: 0;
+    border: 6px solid transparent;
+    border-bottom-color: #f40 ;
+}
+
+
